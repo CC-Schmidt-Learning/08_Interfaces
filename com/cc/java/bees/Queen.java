@@ -1,5 +1,9 @@
 package com.cc.java.bees;
 public class Queen extends HoneyBee{
+    @Override
+    public String nes() {
+        return "Wir haben ein Nest aus Waben";
+    }
 
     @Override
     public String doYourJob() {

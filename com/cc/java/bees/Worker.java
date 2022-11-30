@@ -1,6 +1,11 @@
 package com.cc.java.bees;
 
 public class Worker extends HoneyBee{
+
+    @Override
+    public String nes() {
+        return "Wir haben ein Nest aus Waben";
+    }
    
     @Override
     public String doYourJob() {

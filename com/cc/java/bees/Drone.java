@@ -3,6 +3,11 @@ package com.cc.java.bees;
 public class Drone extends HoneyBee{
 
     @Override
+    public String nes() {
+        return "Wir haben ein Nest aus Waben";
+    }
+
+    @Override
     public String doYourJob() {
         return "I'm a drone, I'm going to date our Queen!";
     }
