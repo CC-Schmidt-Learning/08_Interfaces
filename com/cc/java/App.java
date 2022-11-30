@@ -1,6 +1,9 @@
 
 package com.cc.java;
 
+import com.cc.java.bees.*;
+import com.cc.java.birds.*;
+
 public class App {
     
     public static void main(String[] args) {
