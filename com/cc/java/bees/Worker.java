@@ -1,6 +1,10 @@
 package com.cc.java.bees;
 
 public class Worker extends HoneyBee{
+    @Override
+    public String hasfeathers() {
+        return "I have no wings";
+    }
    
     @Override
     public String doYourJob() {

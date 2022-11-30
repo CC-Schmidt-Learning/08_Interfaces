@@ -11,12 +11,12 @@ public class App {
         HoneyBee worker = new Worker();
         HoneyBee queen = new Queen(); 
         HoneyBee drone = new Drone(); 
-        HoneyBee bird = new Bird();
+        Bird bird = new Bird();
 
         output(worker.doYourJob());
         output(queen.doYourJob());
         output(drone.doYourJob());
-        output(bird.doYourJob());
+        output(bird.hasfeathers());
 
         output("-----------------");
 
